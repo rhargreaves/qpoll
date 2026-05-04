@@ -4,7 +4,7 @@ export default defineConfig({
   plugins: [],
   server: {
     proxy: {
-      "/api": "http://localhost:8787",
+      "/api": "http://localhost:8788",
     },
   },
 });

@@ -2,12 +2,14 @@
 
 all: dev
 
-dev: api ui
+dev:
+	@echo "Starting all servers..."
+	@npm run dev
 
 api:
 	@echo "Starting API server..."
-	@cd api && npm run dev &
+	@npm run start:api
 
 ui:
 	@echo "Starting UI server..."
-	@cd ui && npm run dev &
+	@npm run start:ui
