@@ -12,7 +12,9 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"hono": "^4.12.16",
+		"hono": "^4.12.16"
+	},
+	"devDependencies": {
 		"wrangler": "^4.87.0"
 	}
 }
