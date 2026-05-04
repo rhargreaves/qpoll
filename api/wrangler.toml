@@ -9,3 +9,8 @@ class_name = "Poll"
 [[migrations]]
 tag = "v1"
 new_classes = ["Poll"]
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
