@@ -1,0 +1,11 @@
+name = "qpoll-api"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+
+[[durable_objects.bindings]]
+name = "POLL"
+class_name = "Poll"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Poll"]
